@@ -1,0 +1,1 @@
+<TITLE>Playing Psychic Test</TITLE>This is an easy game. First you select your bet. Then you are given 2 cards, one face up, one face down. You must pick if the face down card is lower or higher than the face up card. It will never be equal to it<a href="aTitle.txt">Back</a>

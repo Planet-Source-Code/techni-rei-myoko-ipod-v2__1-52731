@@ -1,0 +1,7 @@
+<TITLE>Help</TITLE>
+About:<BR>
+<A href="database.txt">Media Database</A><A href="legal.txt">Legal Information</A>
+<BR>Controls:<BR>
+<A href="menu.txt">Menu</A><A href="nowplaying.txt">Now Playing</A><A href="notes.txt">Notes</A>
+<BR>Games:<BR>
+<A href="brick.txt">Brick</A><A href="parachute.txt">Parachute</A><A href="solitaire.txt">Solitaire</A><A href="musictrivia.txt">Music Trivia</A><A href="blackjack.txt">Blackjack</A><A href="poker.txt">Poker</A><A href="puzzle.txt">Puzzle</A><A href="slotmachine.txt">Slot Machine</A><A href="honour.txt">Honour Among Theives</A><A href="president.txt">President</A><A href="psychic.txt">Psychic Test</A>

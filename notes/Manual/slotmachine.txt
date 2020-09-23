@@ -1,0 +1,2 @@
+<TITLE>Playing Slot Machine</TITLE>A game of chance. Use Rewind and Fast Forward to place your bet, then press Select to activate the machine. It'll choose 3 random numbers, if they line up, you get money
+<a href="aTitle.txt">Back</a>

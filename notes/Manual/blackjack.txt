@@ -1,0 +1,7 @@
+<TITLE>Playing Blackjack</TITLE>The object of the game is to get a hand value closest to 21 without going over<BR>
+If you go over you lose. If the AI's hand is closer, you lose. If you both have the same, you tie<BR>
+Number cards (2,3,4,etc) have their face value. Face cards (J,Q,K) equal 10. Ace can be 1 or 11 based on the situatuation<BR>
+Before starting a round, you must place a bid. (If you win, you get 3 times the bid back, or 1 times it back if you tie)<BR>
+Depending on the value of your hand, you can either get another card (hit) or keep the cards you have (stay)<BR>
+Remember, if you go over 21, you lose. So I dont recommend hitting if you're already over 15.<BR>
+The controls follow those defined in <a href="menu.txt">Menu</A><a href="aTitle.txt">Back</a>

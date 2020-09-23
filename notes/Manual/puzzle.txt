@@ -1,0 +1,2 @@
+<TITLE>Playing Puzzle</TITLE>A simple game made cause I couldn't make tetris. Blocks of 4 different shapes fall from the top. Line up 3 or more horizontally or vertically to make them turn into points. The game ends when the top row is full. Use the wheel to control the cursor at the bottom of the screen. Pressing select will switch the two columns above it.
+The multitasking controls for the timer defined in <a href="brick.txt">Brick</A>do apply<a href="aTitle.txt">Back</a>

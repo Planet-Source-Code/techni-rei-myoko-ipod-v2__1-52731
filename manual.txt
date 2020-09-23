@@ -1,0 +1,483 @@
+iPod clone instruction manual
+
+To do list:
+	Roulette
+	Poker
+	Asteroids
+	Space Invaders
+	Snake
+
+	Shuffle (how does this work with repeat off?)
+	Clicker
+	Sleep Timer
+	Alarms
+	
+	Clock
+	Contacts
+
+Main Screen:
+ ____________________
+|  ________________  |
+| |      MyPod  <=|| | - Title bar, Battery Status
+| |----------------| |
+| |Playlists     >|| | - Menu Items
+| |Browse        >|| |
+| |Last Played   >|| |
+| |Settings      >|| |
+| |Extra         >|| |
+| |               || |
+|  ----------------  |
+| (<<)(Mnu)(>||)(>>) | - Buttons (Rewind, Menu, Play/Pause, Forward) (Also uses R/CTRL, M, P, F/Num Zero)
+|        _____       |
+|       /     \      | - Thumb Wheel (Whl) (Also uses arrow keys)
+|      |  ( )  |     | - Select Button (Sel) (Also uses space bar)
+|       \     /      |
+|        -----       |
+|____________________|
+
+Remote:
+ ____
+/(==)\ - Click here to drag
+|()()| - Rewind, Forward
+\(==)/ - Play/Pause
+ \  /  \
+  ||    >Minimize to tray
+  --   /
+
+Menu mode:
+ ____________________
+|  ________________  |
+| |      MyPod  <=|| | - Current Section
+| |----------------| |
+| |Playlists     >|| | - Menu Items
+| |Browse        >|| |
+| |Last Played   >|| |
+| |Settings      >|| |
+| |Extra         >|| |
+| |               || |
+|  ----------------  |
+
+Controls:
+	Mnu: Goes to the previous menu section (if in the main menu, then it switches to Now Playing mode)
+	>||: Goes to 'Now Playing' mode (Holding play down for 3 seconds exits the program)
+	Sel: Execute the currently selected item
+		Items with a '>' on the right side lead to another menu section
+	Whl: Move Up/Down menu items
+	Note: If the screen appears blank, you have encountered a ghost menu. 
+		Im working on eliminating these. Please press menu a few times to restore the menu
+
+Games:
+	Note: Games use your cash as a scoring system
+		If you beat a highscore in any non-gambling game, it'll give you $10
+		It costs $1 to play any non-gambling game
+		Your initial cash value will be based on the hard drive capacity of the drive the program is run from
+		(Thus simulating more expensive iPods starting with more cash)
+		Menu always quits the current game
+
+Now Playing mode:
+ ____________________
+|  ________________  |
+| | Now Playing <=|| | - Titlebar
+| |----------------| |
+| |2 of 2       XO | | - 'Current Track' of 'Total Tracks', Shuffle, Repeat
+| |Give a Reason...| | - Song name (Derived from ID3v1, or filename if ID3v1 isn't present)
+| |Megumi Hayash...| | - Artist name (Derived from ID3v1)
+| |    Slayers     | | - Album name (Derived from ID3v1)
+| | (====________) | | - Time status bar (if not shown, then it'll be the songs rating out of 5 stars)
+| | 01:11   -03:27 | | - Current Position, Time Remaining
+|  ----------------  |
+
+Controls:
+	<< : Previous Track
+	Mnu: Redisplay the menu
+	>||: Pause/Resume playback
+	>> : Next Track
+	Sel: Switch Whl mode
+	Whl: Generally, the wheel will seek to a specific place in the track
+		But in its second mode it will allow you to rate the current track
+
+Brick mode:
+ ____________________
+|  ________________  |
+| |3 lives & 52 blo| | - Lives and blocks remaining
+| |----------------| |
+| | .............. | | - Blocks
+| | .............. | | - Blocks
+| |                | |
+| | '              | | - Puck
+| |                | |
+| |   --           | | - Paddle
+|  ----------------  |
+
+Controls:
+	<< : Slows the game down
+	>||: Pauses/Resumes the game
+	>> : Speeds the game up
+	Whl: Moves the paddle
+	Note: The object of the game is to remove all the blocks by hitting them with the puck
+		The puck will continue to move on its own, unless it falls off the bottom of the screen
+		When this occurs, you'll lose a life. If you lose all of them you have to start over
+		Prevent this by moving the paddle in the way of the ball
+		If the paddle is moving when the puck hits it, the puck will speed up/slow down depending
+		on if the paddle's direction matches the direction of the puck
+
+Parachute mode:
+ ____________________
+|  ________________  |
+| |5 lives & 0 kill| | - Lives and kills made
+| |----------------| |
+| |  .  _     |-)  | | - Helicopter
+| |     X          | | - Parachuter
+| |    .           | |
+| |      .         | | - Bullet/Shrapnel
+| |       \        | | - Cannon
+| |       []       | | - Turret
+|  ----------------  |
+
+Controls:
+	<< : Slows the game down
+	>||: Pauses/Resumes the game
+	>> : Speeds the game up
+	Whl: Moves the cannon
+	Sel: Fires a bullet
+	Note: The object of the game is to kill the parachuters before they get to the bottom of the screen
+		4 (or so) helicopters will come on screen at one time, releasing 1 parachuter eventually each
+		The parachuter will fall, if it falls off screen you'll lose a life. If you lose all of them you have to start over
+		Prevent this by shooting the parachuters before they land
+		You can also shoot down the helicopter before the parachuter is released
+		Shooting a helicopter will release shrapnel that acts just like bullets
+		When a parachuter is released, it wont have a parachute for a while. Without one, it'll fall faster.
+		Also, you can shoot out the parachute without killing the parashooter, thus making it harder it kill it
+
+Solitaire mode:
+ ____________________
+|  ________________  |
+| | Solitaire (50) | | - Cash remaining (if scoring method is not off), Time Passed (if in a timed game)
+| |----------------| |
+| |[][[[] [][][][] | | - Deck, Dealt cards, Ace piles
+| | []- - - - - -  | | \ 
+| |   []- - - - -  | |  \
+| |     []- - - -  | |   > - Card piles 
+| |       []- - -  | |  /
+| |         []- -  | | / 
+|  ----------------  |
+
+Controls:
+	<< : Place 1 selected card back on its original pile
+	>||: Plays the falling card animation (also forfeits the game)
+	>> : Place all but 1 selected card back on its original pile
+	Whl: Moves the hand (selected pile indicator)
+	Sel: Executes the currently selected pile
+		If no cards are selected, and you selected the deck, new cards are dealt
+		If no cards are selected, it automatically selects all the cards that can be selected from the top of the pile
+		If no cards are selected, and you selected a face down card, it is overturned
+		If cards are selected, and you selected their original pile, they are put back there
+		If cards are selected, and you CAN place them on the selected pile, it will place them all there
+	Note: You can't tell me you've never played solitaire before.
+		The object of the game is to get all the cards into the ace piles.
+		They must be placed in order from A, 1 to 10, J, Q, K
+		You can move around cards by placing them on a single value higher card with an opposite color (ie: Red 7 on Black 8)
+		Kings can be places on blank spots
+		If you need some more cards, you can deal some by selecting the deck
+		Winning the game results in the cool Window's falling card animation (added for my enjoyement)
+		Scoring method, maximum rotations, and number of cards dealt are all changeable in options
+
+Scoring:
+						Vegas	Standard
+	Bringing a card to the ace pile 	$5	$10	(Bringing a card out of the ace pile results in a negative value)
+	Bring a card out of the deck 		$0	$5	(Doesn't count if placed directly into an ace pile)
+	Unflipping a card 			$0	$5
+	Compeleting a rotation 			$0	$-20	(IE: dealing so many cards you empty the deck)(if cash is above zero)
+	10 seconds pass				$0	$-2	(if in a timed game, and cash is above zero)
+	Starting a new game 			$-52	$0
+
+	Standard Max Rotations for Deal 1	1	Infinite
+	Standard Max Rotations for Deal 3	3	Infinite
+
+Music Trivia mode:
+ ____________________
+|  ________________  |
+| |Music Trivia(=_)| | - Time remaining
+| |----------------| |
+| |Aqua Video Co...| | \
+| |Beleive -FREE...| |  \
+| |SailorMoon Sa...| |   \ Choices
+| |Dont Copy Tha...| |   /
+| |Give a Reason...| |  /
+| |Realize Evide...| | /
+|  ----------------  |
+ ____________________
+|  ________________  |
+| |Music Trivia(=_)| |
+| |----------------| |
+| |You were Correct| | - Outcome of your choice (or lack thereof)
+| |You won 1 credit| | - Amount of credits won or lost
+| |                | |
+| |Give a Reason...| | - Correct song name
+| |                | |
+| |              :)| |
+|  ----------------  |
+
+Controls:
+	Sel: Choose selected song or continue
+	Whl: Move Up/Down menu items
+	Note: The object of the game is to choose which song is playing before time runs out
+		If you lose, you lose 5 credits, if you win, you gain 1 credit.
+		You must have 6 or more songs scanned into the database before you can play
+		(Songs are scanned automatically the first time they are played)
+		The game will remove 1 of the incorrect choices at 4, 6 and 8 seconds
+
+Black Jack mode:
+ ____________________
+|  ________________  |
+| | Place your bid | |
+| |----------------| |
+| | You have: $400 | | - Your cash
+| |                | | 
+| |                | |
+| |                | |
+| |            1  || | \ Available bids
+| |            2  || | /
+|  ----------------  |
+ ____________________
+|  ________________  |
+| |    Blackjack   | |
+| |----------------| |
+| |       Your hand| | 
+| |       |7|KO|   | | \ Your hand 
+| |       |X|__|   | | /
+| |       Value: 17| | - Your hand's value
+| |           Hit || | \ Available Actions
+| |           Stay|| | /
+|  ----------------  |
+
+ ____________________
+|  ________________  |
+| |    You lost    | | - Outcome of the round
+| |----------------| |
+| | Your hand: 17  | | - Your hand's value 
+| | |7|KO|         | | 
+| | |X|__|         | |
+| | AI's hand: 18  | | - AI's hand's value
+| | |8|J0|   Start|| | \ Available Actions
+| | |X|__|   Quit || | /
+|  ----------------  |
+
+Controls:
+	Whl: Move Up/Down menu items
+	Sel: Place bid/Select current action
+	Note: The object of the game is to get a hand value closest to 21 without going over
+		If you go over you lose. If the AI's hand is closer, you lose. If you both have the same, you tie.
+		Number cards (2,3,4,etc) have their face value. Face cards (J,Q,K) equal 10. Ace can be 1 or 11 based on the situatuation
+		Before starting a round, you must place a bid. (If you win, you get 3 times the bid back, or 1 times it back if you tie)
+		Depending on the value of your hand, you can either get another card (hit) or keep the cards you have (stay)
+		Remember, if you go over 21, you lose. So I dont recommend hitting if you're already over 15.
+		But you don't have to follow my recommendations (the AI however, is my bitch)
+
+Slot Machine mode:
+ ____________________
+|  ________________  |
+| | Current Bet: 5 | | - Your current bet
+| |----------------| |
+| |      ___       | |
+| |     |   |      | | 
+| |     |244|      | |
+| |    [|300|]     | | - Winning numbers
+| |     |411|      | |
+| |     |___|      | | - Sucess indicator
+|  ----------------  |
+
+Controls:
+	<< : Subtract 1 from your bet
+	>> : Add 1 to your bet
+	Sel: (or >||) Randomize winning numbers
+	Note: This game is based on chance. Winning numbers are randomized, if they all match up, you win
+
+Puzzle mode:
+ ____________________
+|  ________________  |
+| |      0 Pts     | | - Current Score
+| |----------------| |
+| |[O]             | | - Falling block(s)
+| |                | |
+| |                | | \
+| |   [O]          | |  > Settled blocks
+| |[X][O]   [Y]    | | /
+| |-----           | | - Cursor
+|  ----------------  |
+
+Controls:
+	<< : Slows the game down
+	>||: Pauses/Resumes the game
+	>> : Speeds the game up
+	Whl: Moves the cursor
+	Sel: Switches the two columns above the cursor
+	Note: The object of this game is to remove all the blocks by lining them up in rows or columns of 3 or more.
+		Do this by switching columns so that the blocks land on top of or beside others of the same shape.
+		Combos higher than 3 result in alot more points, but I guess the most you can get is 5 horizontally.
+		The game ends when the top row is full and no new blocks can fall.
+
+Notes mode:
+ ____________________
+|  ________________  |
+| |     Testing    | | - Note title
+| |----------------| |
+| |Hello world!   || |
+| |               || | 
+| |Testing        || | - Hyper link
+| |-------        || |
+| |               || |
+| |               || |
+|  ----------------  |
+
+Controls:
+	Whl: Move Up/Down a line
+	Sel: Execute a hyper link if it is the selected item
+	Note: Loads notes from the Notes directory located within the directory the program is in.
+		Each note must be in it's own sub folder within the Notes directory
+		The note format isn't exactly like the iPod's, I just made it parse basic HTML
+		Hyper links can be of the following nature:
+		Local: A file (in either standard dos absolute or relative) on the computer you are using iPod on
+		Remote: A link to a web page (in the format: http:// then the address) 
+			The only HTML tags supported are BR P TITLE and A
+			If the webmaster put text in tags thats dont need cancellers (like <P>TEST</P>) the text wont appear
+			This is a VERY simple browser
+		Logical: In the form of 'song=' and then the ABSOLUTE filename or a registered song title
+			In the form of 'ipod:music?' then either 'genre', 'album', or 'artist', 
+			then "=", then the actual genre, artist or album
+			Unlike a real iPod, multiple query strings seperated by an ampersand will simply be truncated to
+			the first query
+
+Honour Among Theives mode:
+ ____________________
+|  ________________  |
+| |Honour amoung th| |
+| |----------------| |
+| |Security      6|| | - Security Rating
+| |Difficulty  Med|| | - Difficulty Rating
+| |Loot        300|| | - Loot Amount
+| |Age       Young|| | - Age of occupants
+| |Is home     Yes|| | - Are the occupants currently home
+| |Class    Middle|| | - How rich are the occupants
+|  ----------------  |
+ ____________________
+|  ________________  |
+| |Honour amoung th| |
+| |----------------| |
+| |               || | 
+| |Cash        400|| | - Your cash
+| |Honour        8|| | - Your honour
+| |               || | 
+| |Rob it         || | - Rob current house
+| |Skip it        || | - Skip current house
+|  ----------------  |
+
+Controls:
+	Whl: Move Up/Down a line
+	Sel: Execute "Rob it", or "Skip it"
+	Note: The object of this game is to earn as much money and honour as possible without getting caught
+		A house's ratings (Security, Loot, Age, Is home, Class) are randomly generated
+		Using these stats, you have to determine whether or not the house is worth robbing
+		The highest security rating is 10, but the random number that determines if you
+		robbed the house goes up to 12. If the number is greater than the security rating,
+		you successfully robbed the house of its loot. If the number is the same, then you escaped
+		and got nothing. If the number is lower then you got caught and lose $500.
+		Honour is calculated based on the security rating (the higher the better), the age
+		(the lower the better), Is home (if they aren't, the better) and Class (the higher the better)
+	Note: This is a game I've made on every programming language I ever learned sine Hypercard.
+
+Psychic Test mode:
+ ____________________
+|  ________________  |
+| | Place your bet | |
+| |----------------| |
+| |1              || | 
+| |2              || | 
+| |5              || | 
+| |10             || | 
+| |20             || | 
+| |50             || | 
+|  ----------------  |
+ ____________________
+|  ________________  |
+| |  Psychic Test  | |
+| |----------------| |
+| |      Your hand | | 
+| |       |QX||  | | | \ Your hand
+| |       |__||__| | | /
+| |                | | 
+| |Lower          || | 
+| |Higher         || | 
+|  ----------------  |
+
+ ____________________
+|  ________________  |
+| |  Psychic Test  | |
+| |----------------| |
+| |      Your hand | | 
+| |       |QX||3O| | | \ Your hand
+| |       |__||__| | | /
+| |                | | 
+| |You Won        || | - Outcome of round
+| |               || | 
+|  ----------------  |
+
+Controls:
+	Whl: Move Up/Down menu items
+	Sel: Place bid/Select current action/Go to next round
+	Note: The object of this game is to guess if the face down card is higher or lower than the face up one.
+		The card will never be equal to it, so don't worry about that
+		Clicking 'You Won/Lost' will go to the next round
+
+President mode:
+ ____________________
+|  ________________  |
+| |    President   | |
+| |----------------| |
+| |You are the pre|| | 
+| |AI1 gave AI2 2 || | 
+| |AI2 gave AI3 1 || | 
+| |Its your turn  || | 
+| |               || | 
+| |               || | 
+|  ----------------  |
+
+	Whl: Move Up/Down menu items
+	Sel: Hide the menu and make your turn
+
+ ____________________
+|  ________________  |
+| |    President   | |
+| |----------------| |
+| ||J|6|4|7|Q|K|8X|| | \ Your hand
+| ||X|X|O|X|O|0|__|| | /
+| ||3O|            | | \ Selected Cards
+| ||__|            | | /
+| ||  | |2X||2O|   | | \ Deck, Current hand to beat
+| ||__| |__||__|   | | /
+|  ----------------  |
+
+Controls:
+	Whl: Select next/prev card/pile (The Hand to be beaten Pile is not selectable)
+	Sel: If your hand is selected pile, it'll move the selected card to the Selected Cards Pile
+		It will only do this if: 
+			If your selected card has the same value as the ones in the Selected Cards Pile
+			OR if the Selected Cards Pile is empty
+		If your Selected Cards pile is the selected pile, then it'll move the selected card back to your hand
+		If the deck is the selected pile, and the Selected Cards pile is empty you pass your turn
+		When you pass your turn you are given another card
+		If the deck is the selected pile, and the Selected Cards pile is not empty then it'll move
+		your selected cards into the Hand to be beaten pile
+		It will only do this if: 
+			If the Hand to be beaten pile contains 2's, you have more 2's selected than in the pile
+			OR If the Hand to be beaten pile doesn't contain 2's, your selected cards have a greater value and equal quantity
+	Note: The object of this game is to run out of cards first to be the president
+		At the start of a game you are the president
+		At the start of a round the president receives 2 cards from the bum, the vice pres gets 1 from the vice bum
+		The president must lead off for the round, by placing cards in the Hand to be beaten Pile
+		The rest of the round is spent placing an equal number, of greater value cards in the pile to beat it.
+		A 2 is the highest ranking card. If you place a 2 you beat any non-2 hand
+		If 2's are in the hand already, you must place a greater number of 2's
+		Every time a player (AI or you) runs out of cards, it takes a rank (starting at President going down)
+		The four ranks are President, Vice President, Vice Bum, and Bum.
+		If the deck runs out of cards, a new one is shuffled.
