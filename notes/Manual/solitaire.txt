@@ -1,0 +1,12 @@
+<TITLE>Playing Solitaire</TITLE>The object of the game is to get all the cards into the ace piles.<BR>
+They must be placed in order from A, 1 to 10, J, Q, K<BR>
+You can move around cards by placing them on a single value higher card with an opposite color (ie: Red 7 on Black 8)<BR>
+Kings can be places on blank spots<BR>
+If you need some more cards, you can deal some by selecting the deck<BR>
+Winning the game results in the cool Window's falling card animation (added for my enjoyement)<BR>
+The wheel moves the hand to select a different pile<BR>
+If no cards are selected, the Select button (big suprise here) selects some from the selected pile<BR>
+If cards are selected, it'll try to place them on the selected pile<BR>
+Rewind unselects 1 card, fast forward unselects all but the last one<BR>
+And the play button forfeits your game and does the winning animation
+<a href="aTitle.txt">Back</a>

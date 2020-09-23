@@ -1,0 +1,8 @@
+<title>Playing a song</title>You'll be seeing a lot of this mode.
+In the upper left hand corner will be a number like '3 of 20'. The 3 is the current track position in a queue of 20.
+In the upper right corner is the shuffle and repeat indicators, shuffle doesn't do anything.
+Some ID3v1 info fills the majority of the screen, then the time bar with the current position, and time remaining beneath it.
+The controls operate just like they should here. Play pauses and resumes, forward goes ahead a track, rewind back one.
+If the time bar is showing, the scroll wheel will allow you to seek to a different second in the track playing.
+If the time bar is not showing, the scroll wheel will let you change the current tracks rating out of 5 stars.
+To hide/show the time bar, click the select button<a href="aTitle.txt">Back</a>

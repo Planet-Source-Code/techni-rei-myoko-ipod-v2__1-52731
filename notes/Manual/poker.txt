@@ -1,0 +1,13 @@
+<TITLE>Playing Poker</TITLE>Use the wheel to select a card or the deck. Clicking a card will transfer it to the opposite pile. Clicking the deck will replace any non-held card with a card from the deck. This can be done twice. After the first time, you can no longer change your bet. After the second time the round is over and your hand will be checked. If you have any of the following hands, you win.<P>
+
+Pair: two cards of the same value<BR>
+TwoPair: two pairs<BR>
+Three Of A Kind: three cards of the same value<BR>
+Straight: any five consecutive cards<BR>
+Flush: any five cards of the same suit<BR>
+Full House: Three-of-a-Kind and a Pair<BR>
+Four Of A Kind: four cards, same value<BR>
+Straight Flush: any five consecutive cards, all same suit<BR>
+Royal Flush A-K-Q-J-10, all same suit
+
+<a href="aTitle.txt">Back</a>

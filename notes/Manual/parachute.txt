@@ -1,0 +1,10 @@
+<TITLE>Playing Parachute</TITLE>The object of the game is to kill the parachuters before they get to the bottom of the screen<BR>
+4 (or so) helicopters will come on screen at one time, releasing 1 parachuter eventually each<BR>
+The parachuter will fall, if it falls off screen you'll lose a life. If you lose all of them you have to start over<BR>
+Prevent this by shooting the parachuters before they land<BR>
+You can also shoot down the helicopter before the parachuter is released<BR>
+Shooting a helicopter will release shrapnel that acts just like bullets<BR>
+When a parachuter is released, it wont have a parachute for a while. Without one, it'll fall faster.<BR>
+Also, you can shoot out the parachute without killing the parashooter, thus making it harder it kill it<P>
+The wheel controls the direction of the turret, while pressing select fires a bullet<BR>
+The multitasking controls for the timer defined in <a href="brick.txt">Brick</A>do apply<a href="aTitle.txt">Back</a>

@@ -1,0 +1,2 @@
+<TITLE>Playing Music Trivia</TITLE>This is a simple game that uses the media database. It plays a song from the master list, and gives you 10 seconds do guess which one it is. A random incorrect answer will be removed every few seconds or so. Incorrect responses will cost you 5 credits, will correct ones will gain you 1<P>
+The multitasking controls for the timer defined in <a href="brick.txt">Brick</A>do apply<a href="aTitle.txt">Back</a>
